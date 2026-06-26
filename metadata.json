@@ -1,12 +1,13 @@
 {
     "name": "Kube Config",
     "description": "Switches kube config context",
-    "uuid": "kube_config@vvbogdanov87.gmail.com",
-    "url": "https://github.com/vvbogdanov87/gnome-shell-extension-kubeconfig",
+    "uuid": "kube_config@maxime-genet54@hotmail.fr",
+    "url": "https://github.com/MochaCaffe/gnome-shell-extension-kubeconfig.git",
     "settings-schema": "org.gnome.shell.extensions.kube-config",
     "shell-version": [
         "47",
         "48",
-        "49"
+        "49",
+        "50"
     ]
 }
