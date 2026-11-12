@@ -66,7 +66,7 @@ export const KubeIndicator = GObject.registerClass({ GTypeName: 'KubeIndicator' 
 
             // add actions section menu
             const actionsSection = new PopupMenu.PopupMenuSection();
-            const actionsBox = new St.BoxLayout({ vertical: false, style_class: 'popup-menu-ornament' });
+            const actionsBox = new St.BoxLayout({ style_class: 'popup-menu-ornament' });
             actionsSection.actor.add_child(actionsBox);
             this.menu.addMenuItem(actionsSection);
 
